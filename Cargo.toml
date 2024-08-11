@@ -1,0 +1,10 @@
+[package]
+name = "learn_gl_with_rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glium = { version = "0.35", features = [
+    "glutin-winit",
+    "simple_window_builder",
+] }
